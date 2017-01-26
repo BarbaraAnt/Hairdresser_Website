@@ -17,13 +17,146 @@
 
   <body>
 
-    <a class="btn btn-default" href="#" role="button">Link</a>
-    <button class="btn btn-default" type="submit">Button</button>
-    <input class="btn btn-default" type="button" value="Input">
-    <input class="btn btn-default" type="submit" value="Submit">
+<!-- Das ist der Abschnitt "Make an Appointment"-->
+<div class="container">
+  <div class="row">
+    <figure class="col-sm-6">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputFile">File input</label>
+          <input type="file" id="exampleInputFile">
+          <p class="help-block">Example block-level help text here.</p>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </figure>
 
-<div class="image">
-    <img src="https://pbs.twimg.com/profile_images/743383152106815488/uXXEwAzf.jpg" class="img-responsive" alt="Responsive image">
+    <figure class="col-sm-6">
+      <table class="table table-bordered">
+          <thead class="thead-default">
+            <tr>
+              <th>Day</th>
+              <th>Working Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Montag</th>
+              <td>8:00-16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Dienstag</th>
+              <td>8:00-16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Mittwoch</th>
+              <td>8:00-16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Donnerstag</th>
+              <td>8:00-16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Freitag</th>
+              <td>8:00-16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Samstag</th>
+              <td>8:00-16:00</td>
+            </tr>
+            <tr>
+              <th scope="row">Sonntag</th>
+              <td>8:00-16:00</td>
+            </tr>
+          </tbody>
+        </table>
+    </figure>
+  </div>
 </div>
+
+<!-- Das ist der Abschnitt FAQs-->
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
+          Do you have gift certificates?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-1" class="panel-collapse collapse">
+      <div class="panel-body">
+        Answer 1
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
+          Can you bring my pet along?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-2" class="panel-collapse collapse">
+      <div class="panel-body">
+        Answer 2
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">
+          What awards did you receive so far?
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-3" class="panel-collapse collapse">
+      <div class="panel-body">
+        Anwer 3
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Das ist der Footer-->
+<footer class="container">
+  <div class="row">
+  <figure class="col-sm-4">
+    <h3>Contact</h3>
+    <p>Friseur Name</p>
+    <p>Telefonnummer: 12345678</p>
+    <p>Musterstraße 2, 1010 Musterort</p>
+    <p>Email: muster@hundesalon.at</p>
+  </figure>
+
+  <figure class="col-sm-4">
+  <img src="https://pbs.twimg.com/profile_images/743383152106815488/uXXEwAzf.jpg" class="img-responsive" alt="Responsive image">
+  </figure>
+
+  <figure class="col-sm-4">
+  <h3>Navigation</h3>
+  <!-- Hier muss eine vertikale Kopie der Nav rein-->
+
+  </figure>
+  </div>
+
+</footer>
 
   </body>
