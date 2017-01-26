@@ -4,6 +4,18 @@
 
 }
 
+.panel-title a {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bottom {
+    border-bottom: 2px solid #ccc;
+}
+
 * {
 
 }
