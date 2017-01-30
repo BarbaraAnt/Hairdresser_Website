@@ -60,5 +60,25 @@ h2 {
 }
 
 * {
-  font-size: 12pt; 
+  font-size: 12pt;
+}
+
+.search {
+  float: right;
+}
+
+.container-fluid {
+  background-color: #94dd90;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width:520px;
+    height:300px;
+    overflow:hidden;
+}
+
+.item {
+min-width: 100%;
+min-height: 100%
 }
